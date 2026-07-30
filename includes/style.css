@@ -1,15 +1,23 @@
 body {
-    background: #ffffff;
-    color: #2563eb;
+    background: #FFFFFF;
+    color: #01386A;
     margin: 0;
     padding: 20px;
     text-align: center;
 }
 
 h1 {
-    color: #2563eb;
+    
     font-size: 28px;
     margin: 10px 0 5px 0;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    background-color: #01386A; 
+    color: #ffffff;            
+    font-size: 20px;
+    padding: 14px 20px;        
+    margin: 0 0 15px 0;             
+    border-radius: 3px;
 }
 
 h3 {
@@ -21,7 +29,7 @@ h3 {
 
 hr {
     border: 0;
-    border-top: 1px solid #333333;
+    border-top: 1px solid #01386A;
     margin: 15px auto;
     width: 90%;
 }
@@ -31,7 +39,7 @@ hr {
 }
 
 button {
-    background: #2563eb;
+    background: #01386A;
     color: #ffffff;
     border: none;
     padding: 12px 35px;
@@ -55,7 +63,7 @@ button:hover {
 }
 
 .media-box {
-    float: left;
+    float: right;
     width: 25%;
     text-align: center;
 }
@@ -69,8 +77,8 @@ button:hover {
 #console {
     float: right;
     width: 70%;
-    background: #ffffff;
-    color: #2563eb;
+    background: #FFFFFF;
+    color: #01386A;
     font-size: 14px;
     padding: 15px;
     text-align: left;
@@ -81,7 +89,15 @@ button:hover {
 }
 
 #kernel-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
     margin-bottom: 1rem;
+}
+#kernel-options label {
+    font-family: Arial, sans-serif;
+    margin-right: 12px;
 }
 
 input[type="radio"] {
@@ -93,10 +109,11 @@ input[type="radio"] {
     border-radius: 0%;
     background-color: #fff;
     cursor: pointer;
+    margin: 0;
 }
 
 input[type="radio"]:checked {
-    background-color: #00ff00;
+    background-color: #01386A;
 }
 
 .mt-2{
