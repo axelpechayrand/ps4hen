@@ -1,6 +1,6 @@
 body {
     background: #ffffff;
-    color: #dddddd;
+    color: #2563eb;
     margin: 0;
     padding: 20px;
     text-align: center;
@@ -13,7 +13,7 @@ h1 {
 }
 
 h3 {
-    color: #2563eb;
+    color: #ffffff;
     font-size: 14px;
     font-weight: normal;
     margin: 0 0 15px 0;
